@@ -1,0 +1,35 @@
+.btn-close {
+  font-size: 1.25rem;
+  background-color: transparent;
+  color: #333;
+  font-size: bolder;
+  box-shadow: none;
+  padding: 0;
+}
+
+.alert-close {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d-flex.flex-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.alert-info {
+  background: rgba(23, 162, 184, 0.35);
+  border: 1px solid #17a2b8;
+  color: #093e47;
+}
